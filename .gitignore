@@ -1,0 +1,90 @@
+# Dependencies and build output
+node_modules/
+dist/
+dist-ssr/
+coverage/
+
+# Local configuration and credentials — NEVER COMMIT these
+.env
+.env.*
+!.env.example
+*.local
+
+# Local databases and user data
+data/
+*.sqlite
+*.sqlite3
+*.db
+
+# Generated media files (video processing output)
+*.mp4
+*.mov
+*.mkv
+*.avi
+*.webm
+*.mp3
+*.wav
+*.aac
+*.m4a
+uploads/
+output/
+clips/
+videos/
+media/
+tmp/
+
+# Local AI model files
+models/
+*.gguf
+*.bin
+*.onnx
+*.pt
+*.safetensors
+
+# TLS certificates and private keys
+*.pem
+*.key
+*.cert
+*.crt
+*.p12
+*.pfx
+
+# Python (if a worker script is added later)
+*.pyc
+__pycache__/
+venv/
+.venv/
+*.egg-info/
+
+# Logs and temporary files
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.tmp
+*.tgz
+
+# Deployment and local tooling state
+.vercel/
+.railway/
+supabase/.temp/
+supabase/.branches/
+.supabase/
+
+# Storybook (if added later)
+storybook-static/
+
+# Editors and operating systems
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
